@@ -38,6 +38,7 @@ cd App-Python
 ```bash
 python app.py
 ```
+This will make the application available at http://localhost:5000
 
 ## Build and Run with Docker
 
