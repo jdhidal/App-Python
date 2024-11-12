@@ -59,8 +59,12 @@ The image for this project is also available on Docker Hub, allowing you to run 
 
 ```bash
 docker pull jdhidalgo673/app-python:latest
+```
+
+```bash
 docker run -p 5000:5000 jdhidalgo673/app-python:latest
 ```
+This will make the application available at http://localhost:5000
 
 ## Deployment to Heroku
 
