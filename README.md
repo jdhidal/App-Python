@@ -1,6 +1,6 @@
 # Project in Python 🌎
 
-This is a basic program in Python that displays a "Hello World" message on the web. The project uses Docker for containerization and has also been deployed on Heroku.
+This is a basic program in Python that displays a "Hello World" message on the web. The project uses Docker for containerization and has also been deployed on Heroku using the `test` branch.
 
 ## Prerequisites
 
@@ -37,19 +37,6 @@ cd App-Python
 2. **Start the application**:
 ```bash
 python app.py
-```
-This will make the application available at http://localhost:5000
-
-## Build and Run with Docker
-
-1. Build the Docker image: Make sure you are in the project directory and then run:
-```bash
-docker build -t app-python .
-```
-
-2. Run the container: Once the image is built, you can run the container:
-```bash
-docker run -p 5000:5000 app-python
 ```
 This will make the application available at http://localhost:5000
 
